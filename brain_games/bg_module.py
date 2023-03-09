@@ -45,3 +45,26 @@ def display_test_result(player_answer, correct_answer, name):
 
 def congratulate(name):
     print(f'Congratulations, {name}!')
+
+
+def begin_the_game(name_of_game):
+    count_of_questions = 3
+    result_of_game = 'win'
+
+    greetings()
+    player_name = ask_player_name()
+    display_the_rules()
+
+    for _ in range(count_of_questions):
+        task, correct_answer = formulate_a_task()
+        ask_player_question(task)
+        player_answer = get_player_answer()
+        display_test_result(player_answer, correct_answer,
+                            player_name)
+
+        if player_answer != correct_answer:
+            result_of_game = 'game over'
+            break
+
+    if result_of_game == 'win':
+        congratulate(player_name)
