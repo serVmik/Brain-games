@@ -18,7 +18,7 @@ def generate_random_number(number_max):
 
 
 def formulate_task_brain_even():
-    task = generate_random_number()
+    task = generate_random_number(100)
     if task % 2 == 0:
         correct_answer = 'yes'
     else:
