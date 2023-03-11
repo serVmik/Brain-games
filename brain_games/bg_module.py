@@ -22,8 +22,8 @@ def formulate_a_task():
     return (task, correct_answer)
 
 
-def display_the_rules():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+def display_the_rules(rules_of_game):
+    print(rules_of_game)
 
 
 def ask_player_question(task):
@@ -47,13 +47,13 @@ def congratulate(name):
     print(f'Congratulations, {name}!')
 
 
-def begin_the_game(name_of_game):
+def begin_the_game(name_of_game, rules_of_game):
     count_of_questions = 3
     result_of_game = 'win'
 
     greetings()
     player_name = ask_player_name()
-    display_the_rules()
+    display_the_rules(rules_of_game)
 
     for _ in range(count_of_questions):
         task, correct_answer = formulate_a_task()
