@@ -12,3 +12,8 @@ Game "Calculator"
 How to run the game: https://asciinema.org/a/oPj4pTA41Q8vNsunFJRliE4pV
 Starting the game with a win: https://asciinema.org/a/cTVtMNNw4pJOST7ksNtc6tKsS
 Start the game with defeat: https://asciinema.org/a/pDegDjk1VOZn0xm9R3dKS8w1G
+
+Game "Greatest common divisor"
+How to start the game: https://asciinema.org/a/VRkqWfMCOGFVasRc4hwYH5aVo
+Starting the game with a win: https://asciinema.org/a/GJsFc8Oci0R3AlEtscSvC4UuA
+Start the game with defeat: https://asciinema.org/a/hhu6tKCwOZg6eOVwh8v9BH680
