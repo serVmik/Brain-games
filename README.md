@@ -17,3 +17,9 @@ Game "Greatest common divisor"
 How to start the game: https://asciinema.org/a/VRkqWfMCOGFVasRc4hwYH5aVo
 Starting the game with a win: https://asciinema.org/a/GJsFc8Oci0R3AlEtscSvC4UuA
 Start the game with defeat: https://asciinema.org/a/hhu6tKCwOZg6eOVwh8v9BH680
+
+Game "Arithmetic progression"
+How to start the game: https://asciinema.org/a/UAE1U91ct78eLLmI6Mg4ptmLX
+Starting the game with a win: https://asciinema.org/a/UAE1U91ct78eLLmI6Mg4ptmLX
+Start the game with defeat: https://asciinema.org/a/zKaSQsUQzgNT5LvmUfYPvxbdY
+
