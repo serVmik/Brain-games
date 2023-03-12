@@ -15,6 +15,9 @@ def begin_to_game(name_of_game):
         case 'brain_calc':
             import brain_games.games.game_calc
             module_game = brain_games.games.game_calc
+        case 'brain_gcd':
+            import brain_games.games.game_gcd
+            module_game = brain_games.games.game_gcd
 
     count_of_questions = 3
     result_of_game = 'win'      # flag for congratulations
