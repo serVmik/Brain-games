@@ -4,13 +4,10 @@ from random import choices, randint
 rules_of_game = 'What is the result of the expression?'
 
 
-def generate_random_number(number_max):
-    return
-
-
 def formulate_task():
     first_item = randint(1, 100)
     mathematical_operation = choices('+-*')
+
     match mathematical_operation[0]:
         case '+':
             second_item = randint(1, 100)
@@ -21,5 +18,7 @@ def formulate_task():
         case '*':
             second_item = randint(1, 10)
             correct_answer = first_item * second_item
+
     task = f'{first_item} {mathematical_operation[0]} {second_item}'
+
     return task, str(correct_answer)
