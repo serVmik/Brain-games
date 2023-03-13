@@ -1,6 +1,22 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/serVmik/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/serVmik/python-project-49/actions)
 
+Welcome to "Brain games!".
+
+Five games are offered to you:
+1) "Parity check"
+2) "Calculator"
+3) "Greatest common divisor"
+4) "Arithmetic progression"
+5) "Is it a prime number?"
+
+You can watch a demo:
+1) game installation
+2) gameplay with a successful ending of the game
+3) gameplay with a unsuccessful ending of the game
+
+Eenjoy the game and good luck!
+
 How to install the brain-games: https://asciinema.org/a/XmBG1NT0RfFCQStuJQDmYwJKm
 
 Game "Parity check"
