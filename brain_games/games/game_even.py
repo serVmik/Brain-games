@@ -10,4 +10,4 @@ def formulate_task():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return (task, correct_answer)
+    return str(task), correct_answer
