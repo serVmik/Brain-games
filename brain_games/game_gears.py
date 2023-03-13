@@ -17,7 +17,7 @@ def display_the_rules(rules_of_game):
 
 
 def ask_player_question(task):
-    print(f'Qyestion: {task}')
+    print(f'Question: {task}')
 
 
 def get_player_answer():
