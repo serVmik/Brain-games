@@ -2,8 +2,11 @@
 from random import randint
 
 
+rules_of_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def formulate_task():
-    number = randint(1, 10)
+    number = randint(1, 100)
     answer = 'yes'
 
     task = str(number)

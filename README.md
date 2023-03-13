@@ -23,3 +23,8 @@ How to start the game: https://asciinema.org/a/UAE1U91ct78eLLmI6Mg4ptmLX
 Starting the game with a win: https://asciinema.org/a/UAE1U91ct78eLLmI6Mg4ptmLX
 Start the game with defeat: https://asciinema.org/a/zKaSQsUQzgNT5LvmUfYPvxbdY
 
+Game "Is it a prime number?"
+How to start the game: https://asciinema.org/a/lPFFuvncDWDdBWvxmRiYjQYj9
+Starting the game with a win: https://asciinema.org/a/NgOXhPbC7nwBkKNCBx2M5Jq55
+Start the game with defeat: https://asciinema.org/a/NsiEDKr8yGevyaDqRC4k0aoLN
+
