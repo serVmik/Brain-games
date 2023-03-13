@@ -1,6 +1,4 @@
 # file:game_logics.py
-
-
 import brain_games.game_gears
 module_gg = brain_games.game_gears             # it's module short name
 # module_game. - this is a short name of the module being loaded,

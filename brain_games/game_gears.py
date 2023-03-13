@@ -29,8 +29,8 @@ def display_test_result(player_answer, correct_answer, name):
         print('Correct!')
     else:
         print(f"'{player_answer}' is wrong answer ;(. "
-              f"Correct answer was '{correct_answer}'.")
-        print(f"Let's try again, {name}!")
+              f"Correct answer was '{correct_answer}'."
+              f"Let's try again, {name}!")
 
 
 def congratulate(name):
