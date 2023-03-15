@@ -1,6 +1,6 @@
 from random import choices, randint
 
-rules_of_game = 'What is the result of the expression?'
+RULES_OF_GAME = 'What is the result of the expression?'
 
 
 def formulate_task():

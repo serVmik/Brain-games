@@ -1,6 +1,6 @@
 from random import randint
 
-rules_of_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def formulate_task():

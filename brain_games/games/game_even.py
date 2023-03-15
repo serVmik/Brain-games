@@ -1,6 +1,6 @@
 from random import randint
 
-rules_of_game = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULES_OF_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def formulate_task():
