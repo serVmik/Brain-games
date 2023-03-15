@@ -1,5 +1,3 @@
-# file:Makefile
-
 brain-games:
 	poetry run brain-games
 

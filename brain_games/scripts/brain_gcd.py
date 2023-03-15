@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# file:brain_gcd.py
 import brain_games.game_logics
 
 

@@ -1,4 +1,3 @@
-# file:game_gears.py
 import prompt
 
 

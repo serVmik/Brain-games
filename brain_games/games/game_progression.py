@@ -1,4 +1,3 @@
-# file:game_progression.py
 from random import randint
 
 rules_of_game = 'What number is missing in the progression?'

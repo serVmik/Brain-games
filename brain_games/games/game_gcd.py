@@ -1,4 +1,3 @@
-# file:brain_gsd.py
 from random import randint
 
 rules_of_game = 'Find the greatest common divisor of given numbers.'

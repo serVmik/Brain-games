@@ -1,4 +1,3 @@
-# file:game_calc.py
 from random import choices, randint
 
 rules_of_game = 'What is the result of the expression?'

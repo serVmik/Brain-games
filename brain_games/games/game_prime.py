@@ -1,6 +1,4 @@
-# file:game_prime.py
 from random import randint
-
 
 rules_of_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
