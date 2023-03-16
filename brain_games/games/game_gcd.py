@@ -4,7 +4,9 @@ RULES_OF_GAME = 'Find the greatest common divisor of given numbers.'
 
 
 def formulate_task():
-    first_number, second_number = ((randint(1, 100), randint(1, 100)))
+    RANGE_OF_NUMBER = 100
+    first_number, second_number = ((randint(1, RANGE_OF_NUMBER),
+                                    randint(1, RANGE_OF_NUMBER)))
     lesser_number = min(first_number, second_number)
 
     for greatest_common_divisor in range(lesser_number, 0, -1):

@@ -4,7 +4,8 @@ RULES_OF_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def formulate_task():
-    task = randint(1, 100)
+    RANGE_OF_NUMBER = 100
+    task = randint(1, RANGE_OF_NUMBER)
     if task % 2 == 0:
         correct_answer = 'yes'
     else:

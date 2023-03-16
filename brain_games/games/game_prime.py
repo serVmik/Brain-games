@@ -4,7 +4,8 @@ RULES_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def formulate_task():
-    number = randint(1, 100)
+    RANGE_OF_NUMBER = 100
+    number = randint(1, RANGE_OF_NUMBER)
     answer = 'yes'
 
     task = str(number)

@@ -4,20 +4,20 @@ RULES_OF_GAME = 'What is the result of the expression?'
 
 
 def formulate_task():
-    first_item = randint(1, 100)
-    mathematical_operation = choices('+-*')
+    RANGE_OF_FIRST_OPERAND = 100
+    RANGE_OF_SECOND_OPERAND = 100
+    first_operand = randint(1, RANGE_OF_FIRST_OPERAND)
+    second_operand = randint(1, RANGE_OF_SECOND_OPERAND)
+    mathematical_operation = choices(['+', '-', '*'])
 
     match mathematical_operation[0]:
         case '+':
-            second_item = randint(1, 100)
-            correct_answer = first_item + second_item
+            correct_answer = first_operand + second_operand
         case '-':
-            second_item = randint(1, 100)
-            correct_answer = first_item - second_item
+            correct_answer = first_operand - second_operand
         case '*':
-            second_item = randint(1, 10)
-            correct_answer = first_item * second_item
+            correct_answer = first_operand * second_operand
 
-    task = f'{first_item} {mathematical_operation[0]} {second_item}'
+    task = f'{first_operand} {mathematical_operation[0]} {second_operand}'
 
     return task, str(correct_answer)
