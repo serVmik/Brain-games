@@ -3,7 +3,7 @@ from random import choices, randint
 RULES_OF_GAME = 'What is the result of the expression?'
 
 
-def formulate_task():
+def create_task():
     RANGE_OF_FIRST_OPERAND = 100
     RANGE_OF_SECOND_OPERAND = 100
     first_operand = randint(1, RANGE_OF_FIRST_OPERAND)

@@ -3,7 +3,7 @@ from random import randint
 RULES_OF_GAME = 'Find the greatest common divisor of given numbers.'
 
 
-def formulate_task():
+def create_task():
     RANGE_OF_NUMBER = 100
     first_number, second_number = ((randint(1, RANGE_OF_NUMBER),
                                     randint(1, RANGE_OF_NUMBER)))

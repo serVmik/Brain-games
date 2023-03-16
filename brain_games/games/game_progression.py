@@ -29,7 +29,7 @@ def creat_task_and_answer(progression):
     return task[:-1], answer
 
 
-def formulate_task():
+def create_task():
     progression = create_progression()
     task, correct_answer = creat_task_and_answer(progression)
 

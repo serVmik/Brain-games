@@ -3,7 +3,7 @@ from random import randint
 RULES_OF_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def formulate_task():
+def create_task():
     RANGE_OF_NUMBER = 100
     task = randint(1, RANGE_OF_NUMBER)
     if task % 2 == 0:

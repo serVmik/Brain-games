@@ -30,7 +30,7 @@ def begin_to_game(name_of_game):
     module_gg.display_the_rules(module_game.RULES_OF_GAME)
 
     for _ in range(count_of_questions):
-        task, correct_answer = module_game.formulate_task()
+        task, correct_answer = module_game.create_task()
         module_gg.ask_player_question(task)
         player_answer = module_gg.get_player_answer()
         module_gg.display_test_result(player_answer, correct_answer,
