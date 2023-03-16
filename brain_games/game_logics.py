@@ -27,7 +27,7 @@ def begin_to_game(name_of_game):
 
     module_gg.greetings()
     player_name = module_gg.ask_player_name()
-    module_gg.display_the_rules(module_game.rules_of_game)
+    module_gg.display_the_rules(module_game.RULES_OF_GAME)
 
     for _ in range(count_of_questions):
         task, correct_answer = module_game.formulate_task()
