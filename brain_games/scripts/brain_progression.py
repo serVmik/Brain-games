@@ -1,4 +1,4 @@
-#!/user/bin/env python3
+#!/usr/bin/env python3
 import brain_games.game_logics
 import brain_games.games.game_progression
 MODULE_GAME = brain_games.games.game_progression

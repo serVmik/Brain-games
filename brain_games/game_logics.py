@@ -1,7 +1,5 @@
 import brain_games.game_gears
-module_gg = brain_games.game_gears             # it's module short name
-# module_game. - this is a short name of the module being loaded,
-# see it at the beginning of the declaration function "begin_to_game"
+module_gg = brain_games.game_gears
 
 
 def begin_to_game(MODULE_GAME):
