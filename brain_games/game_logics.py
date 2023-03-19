@@ -4,33 +4,16 @@ module_gg = brain_games.game_gears             # it's module short name
 # see it at the beginning of the declaration function "begin_to_game"
 
 
-def begin_to_game(name_of_game):
-    match name_of_game:
-        case 'brain_even':
-            import brain_games.games.game_even
-            module_game = brain_games.games.game_even
-        case 'brain_calc':
-            import brain_games.games.game_calc
-            module_game = brain_games.games.game_calc
-        case 'brain_gcd':
-            import brain_games.games.game_gcd
-            module_game = brain_games.games.game_gcd
-        case 'brain_progression':
-            import brain_games.games.game_progression
-            module_game = brain_games.games.game_progression
-        case 'brain_prime':
-            import brain_games.games.game_prime
-            module_game = brain_games.games.game_prime
-
+def begin_to_game(MODULE_GAME):
     count_of_questions = 3
     result_of_game = 'win'      # flag for congratulations
 
     module_gg.greetings()
     player_name = module_gg.ask_player_name()
-    module_gg.display_the_rules(module_game.RULES_OF_GAME)
+    module_gg.display_the_rules(MODULE_GAME.RULES_OF_GAME)
 
     for _ in range(count_of_questions):
-        task, correct_answer = module_game.create_task()
+        task, correct_answer = MODULE_GAME.create_task()
         module_gg.ask_player_question(task)
         player_answer = module_gg.get_player_answer()
         module_gg.display_test_result(player_answer, correct_answer,
