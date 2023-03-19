@@ -1,6 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/serVmik/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/serVmik/python-project-49/actions)
 
+Maintainability Badge from Code Climate
+<a href="https://codeclimate.com/github/serVmik/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/ab152cea8fdf9be54bc5/maintainability" /></a>
+
 Welcome to "Brain games!".
 
 Five games are offered to you:
