@@ -4,10 +4,9 @@ RULES_OF_GAME = 'What is the result of the expression?'
 
 
 def create_task():
-    RANGE_OF_FIRST_OPERAND = 100
-    RANGE_OF_SECOND_OPERAND = 100
-    first_operand = randint(1, RANGE_OF_FIRST_OPERAND)
-    second_operand = randint(1, RANGE_OF_SECOND_OPERAND)
+    RANGE_OF_OPERAND = 100
+    first_operand = randint(1, RANGE_OF_OPERAND)
+    second_operand = randint(1, RANGE_OF_OPERAND)
     mathematical_operation = choices(['+', '-', '*'])
 
     match mathematical_operation[0]:
