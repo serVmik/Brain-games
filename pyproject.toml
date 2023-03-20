@@ -1,9 +1,25 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "The goal of the project is to master the profession of a Python developer, get acquainted with the basic architecture of the project and consolidate the basics of developer tools: Poetry, GitHub, Makefile, Code Climate, flake8, Asciinema."
 authors = ["Sergei Mikurov <454004@mail.ru>"]
 readme = "README.md"
+repository = "https://github.com/serVmik/python-project-49.git"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Other Audience",
+    "License :: Freeware",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Education",
+    "Topic :: Games/Entertainment :: Arcade",
+    "Typing :: Typed"
+]
 packages = [
   { include = "brain_games" },
 ]
