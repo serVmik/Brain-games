@@ -1,6 +1,8 @@
 from random import randint
 
 RULES_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+SMALLEST_VALUE_OF_NUMBER = 1
+LARGEST_VALUE_OF_NUMBER = 100
 
 
 def is_prime(number):
@@ -15,10 +17,7 @@ def is_prime(number):
 
 
 def create_task():
-    RANGE_OF_NUMBER = 100
-    number = randint(1, RANGE_OF_NUMBER)
-
-    task = str(number)
-    answer = ('no', 'yes')[is_prime(number)]
+    task = randint(SMALLEST_VALUE_OF_NUMBER, LARGEST_VALUE_OF_NUMBER)
+    answer = ('no', 'yes')[is_prime(task)]
 
     return task, answer
