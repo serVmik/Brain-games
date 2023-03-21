@@ -14,7 +14,8 @@ def create_progression():
     length_of_progression = randint(SHORTEST_PROGRESSION_LENGTH,
                                     LONGEST_PROGRESSION_LENGTH)
     last_number = first_number + step * (length_of_progression - 1)
-    list_of_progression = [_ for _ in range(first_number, last_number + 1, step)]
+    list_of_progression = [_ for _ in range(first_number, last_number + 1,
+                                            step)]
 
     return list_of_progression
 
