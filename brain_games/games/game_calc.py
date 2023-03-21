@@ -1,12 +1,13 @@
 from random import choices, randint
 
 RULES_OF_GAME = 'What is the result of the expression?'
+SMALLEST_OPERAND_VALUE = 1
+LARGEST_OPERAND_VALUE = 100
 
 
 def create_task():
-    RANGE_OF_OPERAND = 100
-    first_operand = randint(1, RANGE_OF_OPERAND)
-    second_operand = randint(1, RANGE_OF_OPERAND)
+    first_operand = randint(SMALLEST_OPERAND_VALUE, LARGEST_OPERAND_VALUE)
+    second_operand = randint(SMALLEST_OPERAND_VALUE, LARGEST_OPERAND_VALUE)
     mathematical_operation = choices(['+', '-', '*'])
 
     match mathematical_operation[0]:
