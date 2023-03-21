@@ -13,8 +13,8 @@ def create_progression():
     step = randint(SMALLEST_VALUE_OF_NUMBER, RANGE_OF_STEP)
     length_of_progression = randint(SHORTEST_PROGRESSION_LENGTH,
                                     LONGEST_PROGRESSION_LENGTH)
-    last_number = first_number + length_of_progression * step
-    list_of_progression = [_ for _ in range(first_number, last_number, step)]
+    last_number = first_number + step * (length_of_progression - 1)
+    list_of_progression = [_ for _ in range(first_number, last_number + 1, step)]
 
     return list_of_progression
 
