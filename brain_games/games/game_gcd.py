@@ -7,7 +7,6 @@ LARGEST_VALUE_OF_NUMBER = 100
 
 
 def create_task():
-    RANGE_OF_NUMBER = 100
     first_number = randint(SMALLEST_VALUE_OF_NUMBER, LARGEST_VALUE_OF_NUMBER)
     second_number = randint(SMALLEST_VALUE_OF_NUMBER, LARGEST_VALUE_OF_NUMBER)
     task = f'{first_number} {second_number}'
