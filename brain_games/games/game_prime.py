@@ -1,12 +1,12 @@
 from random import randint
 
 RULES_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-MIN_VALUE_OF_NUMBER = 1
+MIN_VALUE_OF_NUMBER = 0
 MAX_VALUE_OF_NUMBER = 100
 
 
 def is_prime(number):
-    if number == 1:
+    if number in (0, 1):
         return False
 
     for divider in range(2, round(number / 2) + 1):
