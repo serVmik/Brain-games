@@ -22,12 +22,10 @@ def creat_task_and_answer(progression):
     hidden_element = progression[position_of_hidden_element]
     answer = str(hidden_element)
 
-    task = ''
     progression[position_of_hidden_element] = '..'
-    for element in progression:
-        task += str(element) + ' '
+    task = ', '.join(progression)
 
-    return task[:-1], answer
+    return task, answer
 
 
 def create_task():
