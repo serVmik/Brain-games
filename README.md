@@ -20,7 +20,9 @@ You can watch a demo:
 
 Eenjoy the game and good luck!
 
-How to install the brain-games: https://asciinema.org/a/XmBG1NT0RfFCQStuJQDmYwJKm
+How to install the brain-games: https://asciinema.org/a/XmBG1NT0RfFCQStuJQDmYwJKm  
+Code to install the game:
+pip install --user hexlet_code-0.1.0-py3-none-any.whl
 
 Game "Parity check"  
 How to run the game: https://asciinema.org/a/jBwDXnNncGL78oj0ffy6eSpPs  
