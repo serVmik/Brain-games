@@ -23,7 +23,7 @@ def creat_task_and_answer(progression):
     answer = str(hidden_element)
 
     progression[position_of_hidden_element] = '..'
-    task = ', '.join(progression)
+    task = ' '.join(progression)
 
     return task, answer
 
