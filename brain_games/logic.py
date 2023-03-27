@@ -18,7 +18,7 @@ def start_to_game(module_of_game):
             print('Correct!')
         else:
             print(f"'{player_answer}' is wrong answer ;(. "
-                  f"Correct answer was '{correct_answer}'."
+                  f"Correct answer was '{correct_answer}'. "
                   f"Let's try again, {player_name}!")
             return
 
