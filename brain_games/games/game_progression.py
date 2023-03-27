@@ -1,18 +1,18 @@
 from random import randint
 
 RULES_OF_GAME = 'What number is missing in the progression?'
-SMALLEST_VALUE_OF_NUMBER = 1
-LARGEST_VALUE_OF_NUMBER = 20
+MIN_VALUE_OF_NUMBER = 1
+MAX_VALUE_OF_NUMBER = 20
 RANGE_OF_STEP = 10
-SHORTEST_PROGRESSION_LENGTH = 5
-LONGEST_PROGRESSION_LENGTH = 10
+MIN_PROGRESSION_LENGTH = 5
+MAX_PROGRESSION_LENGTH = 10
 
 
 def create_progression():
-    first_number = randint(SMALLEST_VALUE_OF_NUMBER, LARGEST_VALUE_OF_NUMBER)
-    step = randint(SMALLEST_VALUE_OF_NUMBER, RANGE_OF_STEP)
-    length_of_progression = randint(SHORTEST_PROGRESSION_LENGTH,
-                                    LONGEST_PROGRESSION_LENGTH)
+    first_number = randint(MIN_VALUE_OF_NUMBER, MAX_VALUE_OF_NUMBER)
+    step = randint(MIN_VALUE_OF_NUMBER, RANGE_OF_STEP)
+    length_of_progression = randint(MIN_PROGRESSION_LENGTH,
+                                    MAX_PROGRESSION_LENGTH)
     last_number = first_number + step * (length_of_progression - 1)
     list_of_progression = [_ for _ in range(first_number, last_number + 1,
                                             step)]
