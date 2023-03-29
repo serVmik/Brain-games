@@ -9,6 +9,7 @@ MAX_VALUE_OF_NUMBER = 100
 def create_task():
     first_number = randint(MIN_VALUE_OF_NUMBER, MAX_VALUE_OF_NUMBER)
     second_number = randint(MIN_VALUE_OF_NUMBER, MAX_VALUE_OF_NUMBER)
+
     task = f'{first_number} {second_number}'
     correct_answer = str(gcd(first_number, second_number))
 
